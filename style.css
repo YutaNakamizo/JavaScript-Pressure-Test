@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+html body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#touchbox {
+  background: #666;
+  width: 100vw;
+  height: 100vh;
+}
+
+#logbox {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 7px;
+  padding: 8px 32px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.2);
+}
